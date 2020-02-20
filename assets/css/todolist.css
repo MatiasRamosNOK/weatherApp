@@ -4,13 +4,15 @@
 
 #contenido{
     background-color: #f7f7f7;
-    width:90%;
+    width:50%;
     margin:6% auto;
     border:2px solid gray;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
 }
+
+
 
 body {
     margin:0;
@@ -75,9 +77,15 @@ input:focus {
 }
 
 
-
 #contenedor{
     float:right;
+}
+
+#imgGato{
+    width:250px;
+    height:200px;
+    margin:auto;
+    display: none;
 }
 
 
