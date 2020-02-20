@@ -26,7 +26,7 @@ function buscarCiudad(data){
   */
  $.ajax({
   method: 'GET',
-  url: `http://api.openweathermap.org/data/2.5/weather?q=${data}&appid=95176c8edea30e33338e0eaddd53a916&units=metric&lang=es`,
+  url: `https://api.openweathermap.org/data/2.5/weather?q=${data}&appid=95176c8edea30e33338e0eaddd53a916&units=metric&lang=es`,
   success: function(info){
       mostrarInfo(info);
   },
