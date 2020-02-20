@@ -4,10 +4,10 @@ $("input[type='text']").keypress(function(event){
     //filtrar para que sólo se active cuando aprietan Enter
     if(event.key == "Enter") {
       limpiarLI();
-      if(losLIestanVacios()){
+      $("li").css("display","block");
         var ciudad = $("input[type='text']").val();
         buscarCiudad(ciudad);
-      }
+    
     }
   });
 
