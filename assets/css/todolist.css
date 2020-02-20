@@ -1,7 +1,185 @@
+
+
 * {
     box-sizing: border-box;
 }
 
+@media(min-width: 751px){
+    #contenido{
+        background-color: #f7f7f7;
+        width:50%;
+        margin:6% auto;
+        border:2px solid gray;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
+    } 
+
+    body {
+        margin:0;
+        padding:0;
+        font-family: "Roboto", sans-serif;
+        background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+        /*background: #355C7D;  /* fallback for old browsers */
+        /*background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+        /*background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+        
+    }
+    
+    h1 {
+        background-color: #2980b9;
+        color: white;
+        margin: 0;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    
+    #container{
+        display:none;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    
+    li {
+        background-color: white;
+        height: 40px;
+        line-height: 40px;
+        color: #666;
+        vertical-align:middle;
+    }
+    
+    li:nth-child(even) {
+        background-color: #f7f7f7;
+    }
+    
+    input {
+        font-size: 18px;
+        background-color: #f7f7f7;
+        width: 100%;
+        padding: 13px 13px 13px 20px;
+        border: none;
+    }
+    
+    input:focus {
+        background-color: #fff;
+        outline: none;
+        border: 3px solid #2980b9;
+    }
+    
+    
+    #contenedor{
+        float:right;
+    }
+    
+    #imgGato{
+        border-radius: 50%;
+        width:250px;
+        height:200px;
+        margin:auto;
+        display: none;
+    }
+    
+    
+    
+    
+}
+
+
+@media (max-width: 750px) {
+    #contenido{
+        background-color: #f7f7f7;
+        width:80%;
+        margin:6% auto;
+        border:2px solid gray;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
+    }
+    
+    body {
+        margin:0;
+        padding:0;
+        font-family: "Roboto", sans-serif;
+        background: #3a6186;  
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186); 
+    background: linear-gradient(to right, #89253e, #3a6186);       
+    }
+    
+    h1 {
+        background-color: #2980b9;
+        color: white;
+        margin: 0;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: normal;
+    }
+    
+    #container{
+        display:none;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    
+    li {
+        background-color: white;
+        height: 40px;
+        line-height: 40px;
+        color: #666;
+        vertical-align:middle;
+    }
+    
+    li:nth-child(even) {
+        background-color: #f7f7f7;
+    }
+    
+    input {
+        font-size: 18px;
+        background-color: #f7f7f7;
+        width: 100%;
+        padding: 13px 13px 13px 20px;
+        border: none;
+    }
+    
+    input:focus {
+        background-color: #fff;
+        outline: none;
+        border: 3px solid #2980b9;
+    }
+    
+    
+    #contenedor{
+        float:right;
+    }
+    
+    #imgGato{
+        border-radius: 50%;
+        width:250px;
+        height:200px;
+        margin:auto;
+        display: none;
+    }
+    
+}
+
+/*
 #contenido{
     background-color: #f7f7f7;
     width:50%;
@@ -11,20 +189,17 @@
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
 }
-
-
-
 body {
     margin:0;
     padding:0;
     font-family: "Roboto", sans-serif;
-    background: #3a6186;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3a6186;  
+background: -webkit-linear-gradient(to right, #89253e, #3a6186); 
+background: linear-gradient(to right, #89253e, #3a6186); 
 
-    /*background: #355C7D;  /* fallback for old browsers */
-    /*background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    /*background: #355C7D; 
+    /*background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  
+    /*background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); 
     
 }
 
@@ -91,3 +266,4 @@ input:focus {
 
 
 
+*/
