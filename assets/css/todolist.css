@@ -82,6 +82,7 @@ input:focus {
 }
 
 #imgGato{
+    border-radius: 50%;
     width:250px;
     height:200px;
     margin:auto;
