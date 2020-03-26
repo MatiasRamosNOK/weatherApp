@@ -3,9 +3,6 @@
 }
 
 @media(min-width: 751px){
-    html{
-        height:100%;
-    }
     #contenido{
         background-color: #f7f7f7;
         width:50%;
