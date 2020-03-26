@@ -3,12 +3,6 @@
 }
 
 @media(min-width: 751px){
-    html{
-        height:100%
-    }
-
-    
-
     body {
         margin:0;
         font-family: "Roboto", sans-serif;  /* fallback for old browsers */
