@@ -107,9 +107,8 @@
         margin:0;
         padding:0;
         font-family: "Roboto", sans-serif;
-        background: #3a6186;  
-    background: -webkit-linear-gradient(to right, #89253e, #3a6186); 
-    background: linear-gradient(to right, #89253e, #3a6186);       
+        background: #3a6186;   
+        background: linear-gradient(to right, #89253e, #3a6186);       
     }
     
     h1 {
